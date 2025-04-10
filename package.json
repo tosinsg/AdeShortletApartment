@@ -2,13 +2,14 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tosinsg.github.io/AdeShortletApartment",
+  "homepage": "https://tosinsg.github.io/AdeShortletApartment/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "next build",
+    "export": "next export",
+    "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {

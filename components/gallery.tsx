@@ -218,16 +218,6 @@ const images = [
     title: "Modern Toilet",
   },
   {
-    src: "/images/bathroom.jpg",
-    alt: "Bathroom with toilet and shower area",
-    title: "Modern Toilet",
-  },
-  {
-    src: "/images/bathroom (3).jpg",
-    alt: "Bathroom with toilet and shower area",
-    title: "Modern Bathroom",
-  },
-  {
     src: "/images/toilet-vid.mp4",
     alt: "Modern bathroom and clean toilets",
     title: "Modern Toilet",

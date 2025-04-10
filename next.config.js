@@ -46,4 +46,7 @@ if (userConfig) {
   }
 }
 
-module.exports = nextConfig;
+module.exports = {
+  basePath: '/AdeShortletApartment',
+  assetPrefix:'/AdeShortletApartment',
+}
